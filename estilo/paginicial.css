@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0:rgb(131, 33, 33);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    width: 100%;
+    background-color: var(--cor0);
+}
+
+#titulo > img {
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+
+/*---------------------------------carroseel-------------------------------*/
+#carrossel{
+width: 100%;    
+}
+
+#carousel-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #carrossel img {
+    width: 100%;
+  }
+
+  #carrossel p {
+    background-color: var(--cor0);
+    color: white;
+    font-size: 1.5em;
+    padding: 8px;
+    text-indent: 2em;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    height: 300px;
+  }
+
+
+
+/*---------------------------------carroseel fim----------------------------*/
