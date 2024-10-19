@@ -3,6 +3,7 @@
 
 :root {
     --cor0:rgb(131, 33, 33);
+    --cor1:rgb(11, 11, 53);
 }
 
 
@@ -11,21 +12,72 @@
     padding: 0px;
 }
 
+body {
+  height: 100%;
+}
+
 #titulo {
     width: 100%;
     background-color: var(--cor0);
+    z-index: 1000;
 }
 
 #titulo > img {
-    width: 60%;
+    width: 200px;
     display: flex;
     margin: auto;
+    
 }
+
+#menu {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: -1px;
+  z-index: 999;
+  width: 100%;
+  outline: none;
+  border: none;
+  
+}
+
+#menu > i {
+  color: aliceblue;
+  font-size: 2em;
+  cursor: pointer;
+  
+}
+
+#menu2 {
+background-color: var(--cor1);
+display: none;
+text-align: center;
+width: 80%;
+margin: auto;
+position: sticky;
+top: 54px;
+z-index: 998;
+}
+
+#menu2 > a {
+  color: aliceblue;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid aliceblue;
+  
+}
+
+
 
 
 /*---------------------------------carroseel-------------------------------*/
 #carrossel{
-width: 100%;    
+width: 100%;
+position: inherit;   
+z-index: 1;
+position: relative;
+
 }
 
 #carousel-container {

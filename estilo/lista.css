@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:rgb(131, 33, 33);
+    --cor1:rgb(11, 11, 53);
+}
+
+#listas {
+    background-color: var(--cor0);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#listas > div{
+    margin: auto;
+    width: 82%;
+    background-color: var(--cor1);
+    border-radius: 20px;
+    
+}
+
+#listas img {
+    width:100%;
+}
+
+#listas h2 {
+    padding: 10px;
+}
+ 
+#listas p {
+    padding: 10px;
+    color: aliceblue;
+}
