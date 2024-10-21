@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'quongo';
+  src: url('../fonts/Quango.otf') format(opentype);
+}
 
 :root {
     --cor0:rgb(131, 33, 33);
     --cor1:rgb(11, 11, 53);
+
+    --fonte1:'quongo', 'Courier New', Courier, monospace;
 }
 
 
@@ -73,8 +79,7 @@ z-index: 998;
 
 /*---------------------------------carroseel-------------------------------*/
 #carrossel{
-width: 100%;
-position: inherit;   
+width: 100%;   
 z-index: 1;
 position: relative;
 

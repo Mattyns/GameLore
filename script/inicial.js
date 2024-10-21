@@ -64,9 +64,24 @@ function menu() {
   if (menu2.style.display == 'grid') {
     menu2.style.display = 'none';
     carrossel.style.top = '0px'
+    
   } else {
     menu2.style.display = 'grid';
     carrossel.style.top = '-117px'
+    
+
+  }
+}
+
+function menuls() {
+  if (menu2.style.display == 'grid') {
+    menu2.style.display = 'none';
+    ls.style.top = '0px'
+    
+  } else {
+    menu2.style.display = 'grid';
+    ls.style.top = '-117px'
+    
 
   }
 }

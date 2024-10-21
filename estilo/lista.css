@@ -1,8 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'quongo';
+    src: url('../fonts/Quango.otf') format(opentype);
+  }
+
 :root {
     --cor0:rgb(131, 33, 33);
     --cor1:rgb(11, 11, 53);
+
+    --fonte1:'quongo', 'Courier New', Courier, monospace;
+}
+
+#ls{
+    position: relative;
+    margin-top: 20px;
+    
 }
 
 #listas {
@@ -11,10 +24,16 @@
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    font-family: var(--fonte1);
 }
 
 #listas > div{
+    
     margin: auto;
+    margin-top: 20px;
     width: 82%;
     background-color: var(--cor1);
     border-radius: 20px;
@@ -27,9 +46,11 @@
 
 #listas h2 {
     padding: 10px;
+    color: aliceblue;
 }
  
 #listas p {
     padding: 10px;
     color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
